@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Em cảm ơn chị đã tha lỗi cho em ạ, thật ra e có chút tình cảm với chị nên có những hành động nông nỗi như vậy ạ. E xin lỗi chị nhiều lắm ạ.";
+  titleElement.innerHTML = "Em cảm ơn chị đã tha lỗi cho em ạ, thật ra e lúc đấy có chút tình cảm với chị nên có những hành động nông nỗi như vậy ạ. E xin lỗi chị nhiều lắm ạ.";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
